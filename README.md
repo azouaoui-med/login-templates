@@ -2,8 +2,11 @@
 A responsive login form made with bootstrap.
 
 ## Demo
-[try demo](https://azouaoui-med.github.io/bootstrap_login_orange_theme/)
+[check it out](https://azouaoui-med.github.io/bootstrap_login_orange_theme/)
+
+## Dependencies
+*   [Bootstrap 3](https://getbootstrap.com/)
+*   [Font awsome](https://fontawesome.io/)
 
 ## Licence
-[MIT License](https://github.com/azouaoui-med/bootstrap_login_orange_theme/blob/gh-pages/LICENSE)
-
+[MIT](https://github.com/azouaoui-med/bootstrap_login_blue_theme/blob/gh-pages/LICENSE)
