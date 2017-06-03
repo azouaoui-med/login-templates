@@ -6,7 +6,7 @@ A responsive login form made with bootstrap.
 
 ## Dependencies
 *   [Bootstrap 3](https://getbootstrap.com/)
-*   [Font awsome](https://fontawesome.io/)
+*   [Font awsome](http://fontawesome.io/)
 
 ## Licence
 [MIT](https://github.com/azouaoui-med/bootstrap_login_blue_theme/blob/gh-pages/LICENSE)
