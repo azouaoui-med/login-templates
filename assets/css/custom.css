@@ -51,8 +51,24 @@ body{
     -webkit-transition:all .5s;
     transition:all .5s;
 }
-.login-container .login-body input.form-control:focus{
-    border-color: #f0ad4e;
+.login-container .login-body input.form-control ~ span{
+    position: absolute;
+    bottom: 0;
+    display: inline-block;
+    height: 2px;
+    width: 0;
+    background: #f0ad4e;
+    -o-transition:width .3s;
+    -webkit-transition:width .3s;
+    transition: width .3s;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+
+}
+.login-container .login-body input.form-control:focus ~ span{
+    width: 100%;
 }
 .login-container .login-body input.form-control + i{
     position: absolute;
