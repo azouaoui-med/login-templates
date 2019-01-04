@@ -1,72 +1,75 @@
-<!DOCTYPE html>
 <html lang="en">
 
-    <head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <title>Login templates</title>
+    <style>
+        header {
+            height: 200px;
+            background-color: #3E454C;
+            color: #fff;
+        }
 
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Login form</title>
+        header h1 {
+            line-height: 200px;
+        }
 
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="assets/css/custom.css">
-        <!-- Favicon and touch icons -->
-        <link rel="shortcut icon" href="assets/ico/favicon.png">
+        main {
+            padding: 50px 0;
+        }
 
-    </head>
+        .templates>a {
+            display: inline-block;
+            box-shadow: 3px 3px 8px #a7abaf;
+            transition: transform .2s ease-in-out, box-shadow .2s ease-in-out;
+        }
 
-    <body>
-        <div class="container ">
-            <div class="row">            
-                <div class="login-container col-lg-4 col-md-6 col-sm-8 col-xs-12">
-                     <div class="login-title text-center">
-                            <h2><span>Logo<strong>Name</strong></span></h2>
-                     </div>
-                    <div class="login-content">
-                        <div class="login-header ">
-                            <h3><strong>Welcome,</strong></h3>
-                            <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quam numquam</h5>
+        .templates>a:hover {
+            box-shadow: 3px 8px 8px #8e949a;
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="text-center">Login Templates</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 ml-auto mr-auto">
+                    <div class="row">
+                        <div class="col-md-6 mb-2">
+                            <div class="templates">
+                                <a href="./templates/bootstrap3/login_1/index.html" target="_blank">
+                                    <div class="card">
+                                        <img src="https://user-images.githubusercontent.com/25878302/50690400-6eccd080-102d-11e9-8fef-5fc1dfa8d2bd.jpg"
+                                            class="card-img-top" alt="...">
+                                    </div>
+                                </a>
+                            </div>
                         </div>
-                        <div class="login-body">
-                            <form role="form" action="" method="post" class="login-form">
-                                <div class="form-group ">
-                                    <div class="pos-r">                                        
-                                        <input   id="form-username" type="text" name="form-username" placeholder="Username..." class="form-username form-control">
-                                        <i class="fa fa-user"></i>
-                                        <span></span>
+                        <div class="col-md-6">
+                            <div class="templates">
+                                <a href="./templates/bootstrap3/login_2/index.html" target="_blank">
+                                    <div class="card">
+                                        <img src="https://user-images.githubusercontent.com/25878302/50690401-6eccd080-102d-11e9-8e05-e36272379293.jpg"
+                                            class="card-img-top" alt="...">
                                     </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="pos-r">                                    
-                                        <input id="form-password" type="password" name="form-password" placeholder="Password..." class="form-password form-control" >
-                                        <i class="fa fa-lock"></i>
-                                        <span></span>                                        
-                                    </div>
-                                </div>
-                                <div class="form-group text-right">     
-                                    <a href="#" class="bold"> Forgot password?</a>
-                                </div>   
-
-                                <div class="form-group">     
-                                    <button type="submit" class="btn btn-warning form-control"><strong>Sign in</strong></button>  
-                                </div>   
-                                                                              
-                            </form>
-                        </div> <!-- end  login-body -->                     
-                    </div><!-- end  login-content -->  
-                    <div class="login-footer text-center template">
-                        <h5>Don't have an account?<a href="#" class="bold"> Sign up </a>     </h5>
-                         <h5>Bootstrap login template made by <a href="https://github.com/azouaoui-med" class="bold"> Mohamed Azouaoui</a></h5>                   
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                </div>  <!-- end  login-container -->      
-
+                </div>
             </div>
-        </div><!-- end container -->
+        </div>
+    </main>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-    </body>
+</body>
 
 </html>

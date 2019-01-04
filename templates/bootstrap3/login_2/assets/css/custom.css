@@ -1,0 +1,112 @@
+body{
+    background: url(https://user-images.githubusercontent.com/25878302/50690661-72ad2280-102e-11e9-814d-68b5d5e38c21.jpg) #132533  no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+.login-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);   
+}
+.login-container .login-content{
+    background: rgba(0, 0, 0, 0.4);
+}
+.pos-r{
+    position: relative;
+}
+.login-container  .login-header{
+    padding: 10px 30px;
+}
+.login-container, .login-container a,.login-container input{
+    color: #ffffff;
+}
+.login-container .login-title span{
+    padding: 10px 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+    text-shadow: -1px 1px 1px rgb(17, 42, 51);
+}
+.login-container .login-title span strong{
+   color: #4bccff;
+}
+.login-container .login-body{
+    padding: 30px 30px;
+}
+.login-container .login-body input.form-control{
+    background: rgba(0, 0, 0, 0.7);
+    height: 50px;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    border-left: 3px solid transparent;
+    font-size: 16px;
+    -o-transition:all .5s;
+    -webkit-transition:all .5s;
+    transition:all .5s;
+}
+.login-container .login-body input.form-control:focus{
+    border-color: #4bccff;
+}
+.login-container .login-body input.form-control + i{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 20px;
+    color: rgb(24, 80, 103);
+    -o-transition:all .5s;
+    -webkit-transition:all .5s;
+    transition:all .5s;
+}
+.login-container .login-body input.form-control:focus + i{
+    color: #4bccff;
+}
+.login-container .login-body button {
+    height: 50px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    font-size: 20px;
+}
+.login-container .login-footer{
+    padding: 20px 0;
+}
+.template h5 a {
+    color: #4bccff;
+}
+
+@media only screen and (max-width: 600px), screen and (max-height: 610px)  {
+     
+     .login-container  {
+        padding: 0px; 
+    }
+    .login-container .login-title span {
+        padding: 0px; 
+        margin-bottom: 10px; 
+    }
+     .login-container .login-content {
+         background: none; 
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none; 
+         box-shadow:none; 
+    }
+    .login-header {
+        display: none;
+    }
+    .login-container .login-body {
+        padding: 10px 10px;
+    }
+    .login-container .login-footer {
+        padding: 0;
+    }
+}
+@media only screen and (max-height: 400px)  {
+       .login-container{
+            position: static;
+            transform:none;  
+            padding: 0;    
+        }
+    }
